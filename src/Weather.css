@@ -1,0 +1,46 @@
+/* Climate.css */
+.climate-container {
+    width: 350px;
+    margin-left: 200px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .climate-container:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .climate-heading {
+    margin-top: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .climate-details {
+    margin-top: 10px;
+  }
+  
+  .climate-info {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .climate-info:hover {
+    color: #000;
+    font-weight: bold;
+  }
+  .img{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 200px;
+    /* margin-bottom: -20px; */
+    margin-top: -90px;
+  }
